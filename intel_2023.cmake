@@ -1,3 +1,5 @@
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(3RDPARTY_TCL_DIR "C:/OCCT_3rd_parties/tcltk-86-64" CACHE PATH "")
 set(3RDPARTY_TCL_INCLUDE_DIR "C:/OCCT_3rd_parties/tcltk-86-64/include" CACHE PATH "")
 set(3RDPARTY_TCL_LIBRARY_DIR "C:/OCCT_3rd_parties/tcltk-86-64/lib" CACHE PATH "")
