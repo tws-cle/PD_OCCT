@@ -1,0 +1,11 @@
+services:
+  3dcompile:
+    image: tws-docker-reg:5000/advanteng3d:17.6.17-2023.2
+    volumes:
+     - type: bind
+       source: '.'
+       target: 'C:/pd_occt'
+    cpu_count: 6
+    mem_limit: 5GB
+    tty: true
+    stdin_open: true
